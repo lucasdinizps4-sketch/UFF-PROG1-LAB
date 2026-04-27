@@ -5,14 +5,12 @@
 
 lista_notas = []
 nota = 0
-contador = 0
 
 while nota != -1:
     nota = int(input("informe sua nota: "))
     if nota == -1:
         break
     lista_notas.append(nota)
-    contador = contador + 1
 
 media = sum(lista_notas) / len(lista_notas)
 
