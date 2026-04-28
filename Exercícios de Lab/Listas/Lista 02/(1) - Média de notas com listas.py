@@ -5,13 +5,15 @@
 
 lista_notas = []
 nota = 0
+soma = 0
 
 while nota != -1:
     nota = int(input("informe sua nota: "))
     if nota == -1:
         break
     lista_notas.append(nota)
+    soma = soma + nota
 
-media = sum(lista_notas) / len(lista_notas)
+media = soma / len(lista_notas)
 
 print(media)
