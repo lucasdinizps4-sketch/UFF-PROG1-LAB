@@ -11,3 +11,5 @@ for i in range(len(minha_lista)):
         nova_lista.append(minha_lista[i])
 
 print(nova_lista)
+
+

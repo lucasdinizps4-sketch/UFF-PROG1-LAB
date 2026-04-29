@@ -5,7 +5,7 @@ while True:
     if item == "sair":
         break
     if item in estoque:
-        posicao = estoque.index(item)
+        posicao = estoque.index(item)+1
         print(f"Posição do item: {posicao}")
     else: 
         p1 = input("Item não encontrado, deseja adicionar ao carrinho? (s/n): ")
