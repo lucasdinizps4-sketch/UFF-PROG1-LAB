@@ -16,4 +16,4 @@ while nota != -1:
 
 media = soma / len(lista_notas)
 
-print(media)
+print(f"Média = {media:.1f}")
