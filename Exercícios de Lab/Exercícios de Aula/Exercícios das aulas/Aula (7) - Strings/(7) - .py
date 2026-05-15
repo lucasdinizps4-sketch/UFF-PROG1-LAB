@@ -6,7 +6,7 @@ count_carac = 0
 count_vogal = 0
 count_cons = 0
 
-for i in range(frase)
+for i in range(frase): 
 
     qntd_carac = len(frase)
 
