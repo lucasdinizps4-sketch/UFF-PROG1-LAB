@@ -17,4 +17,4 @@ for i in range(len(dados_alunos)):
     if media >= 7.0:
         status = "Aprovado"
 
-    print(f"{nome} | Média: {media:.2f} | Status: {status})
+    print(f"Nome: {nome} | Média: {media:.2f} | Status: {status}")
