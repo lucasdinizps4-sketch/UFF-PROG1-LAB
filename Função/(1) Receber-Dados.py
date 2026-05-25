@@ -1,0 +1,38 @@
+def obterdados(): 
+  nome = input("Informe seu nome: ")
+  idade = int(input("Informe sua idade: "))
+  nivel = int(input("Informe seu nível (1,2,3): "))
+  return nome,idade,nivel
+  
+def cabecalho():
+    print('UFF')
+    print('PROG I')
+
+totalpessoas_nivel1 = 0
+totalpessoas_nivel2 = 0
+totalpessoas_nivel3 = 0
+somaidade = 0
+
+nome,idade,nivel = obterdados()
+while nivel != 0 and nome != "" and idade != 0:
+  if nivel == 1: 
+    totalpessoas_nivel1 += 1
+  elif nivel == 2:
+    totalpessoas_nivel2 += 1
+  else:
+    totalpessoas_nivel3 += 1
+  somaidade += idade
+  nome,idade,nivel = obterdados()
+
+cabecalho()
+
+print(totalpessoas_nivel1)
+print(totalpessoas_nivel2)
+print(totalpessoas_nivel3)
+
+total_pessoas = totalpessoas_nivel1 + totalpessoas_nivel2 + totalpessoas_nivel3
+if total_pessoas > 0:
+    media = somaidade / (totalpessoas_nivel1 + totalpessoas_nivel2 + totalpessoas_nivel3)
+    print(f"{media:.1f}")
+else: 
+    print("Nenhuma pessoa cadastrada.")
