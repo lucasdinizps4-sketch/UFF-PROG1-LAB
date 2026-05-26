@@ -1,0 +1,6 @@
+frase = input()
+
+
+
+
+
