@@ -1,4 +1,4 @@
-# Escreva um programa para contar quantas letras a ocorre em uma String.
+# Escreva um programa para contar quantas letras "a" ocorre em uma String.
 
 s = input("Informe uma frase")
 count_a = 0
