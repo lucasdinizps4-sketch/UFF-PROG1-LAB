@@ -1,12 +1,16 @@
-dic = {
-    "Claudia": [4,10,8],
-    "Lucas": [8,7,5],
-    "Marcos": [8,7,9]
+alunos = {
+    "Lucas": [7,8,5],
+    "Marcos": [3,6,5]
 }
 
+for chave,dados in alunos.items():
+    soma = 0
+    for i in dados:
+        soma += i
+    media = soma/(len(dados))
+    print(f"Nome: {chave} \nMédia: {media:.2f}")
 
-for chave,valor in dic.items():
-    soma = 0 
-    for i in valor:
-        soma += valor
-    media = soma/len(valor)
+
+
+
+
