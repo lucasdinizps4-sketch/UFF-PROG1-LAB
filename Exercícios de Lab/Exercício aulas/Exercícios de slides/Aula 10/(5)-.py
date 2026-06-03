@@ -1,3 +1,5 @@
+# Crie um dicionário que armazene o nome, o preço e a quantidade em estoque de umproduto. Peça ao usuário para atualizar o preço e exiba o dicionário atualizado.
+
 produto = {
     "nome": "guib",
     "preço": 50,
