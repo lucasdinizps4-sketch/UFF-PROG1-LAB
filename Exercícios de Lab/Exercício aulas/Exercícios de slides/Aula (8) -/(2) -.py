@@ -4,8 +4,8 @@ modo = input()
 alfabeto = "abcdefghijklmnopqrstuvwxyz"
 nova_frase = ""
 
-if modo == "criptografar":
-    chave = +chave
+if modo == "descriptografar":
+    chave = chave *(-1)
 
     for i in range(len(mensagem)):
         caractere = mensagem[i].lower()
