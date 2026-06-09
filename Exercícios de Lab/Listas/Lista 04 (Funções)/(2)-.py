@@ -1,5 +1,5 @@
 def media_p(lista):
-    soma += 0
+    soma = 0
     soma_p = 0
     for i in range(lista):
         nota = lista[i][0]
