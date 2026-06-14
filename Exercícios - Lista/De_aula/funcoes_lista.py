@@ -17,7 +17,7 @@ def pos_menor(lista):
     return p_menor
 
 
-# Escreva uma função para descobrir o menor valor inteiro em uma lista de apartir de uma posição
+# Escreva uma função para descobrir o menor valor inteiro em uma lista de apartir de uma posição  [10,20,40,-5]
 def obtermenor_por_pos(lista,posinicial):
     menor = lista[posinicial]
     p_menor = posinicial
@@ -31,7 +31,7 @@ def obtermenor_por_pos(lista,posinicial):
 # Escreva uma função para permutar 2 valores na lista de acordo com os indices passados
 def permutar(lista,p1,p2):
     aux = lista[p1]
-    lista[p1] = lista[p2]
+    lista[p1] = lista[p2]  # lista[p1], lista[p2] = lista[p2], lista[p1] 
     lista[p2] = aux
 
 
